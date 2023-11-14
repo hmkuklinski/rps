@@ -108,8 +108,7 @@ selectGameButton.addEventListener("click",(e)=>{
 
 rulesButton.addEventListener("click", (e)=>{
     classicButton.style.display="none";
-    selectGameButton.style.display="inline-block";
-    selectGameButton.textContent="Go Back";
+    selectGameButton.style.display="none";
     bonusButton.style.display="none";
     rockButton.style.display="none";
     scissorsButton.style.display="none";

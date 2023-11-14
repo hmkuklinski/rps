@@ -66,6 +66,9 @@ h1{
     align-items: center;
     justify-content: center;
 }
+#button2{
+    background-color: lightcoral;
+}
 #select-game{
     background-color:#7B25DC;
 }
