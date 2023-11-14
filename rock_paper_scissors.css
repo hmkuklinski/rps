@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family: 'Amsterdam';
+    src:url('https://www.fontspace.com/amsterdam-font-f29770')
+}
+@media all and (max-width: 1000px) {
+    .selections{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.webpage-elements{
+    width:95%;
+    height:auto;
+    margin-top: 70px;
+}
+.title-and-subtitle{
+    font-family:"Amsterdam",sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle{
+    font-weight:300;
+}
+.game-window{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    margin:20px 10px;
+    padding:10px;
+}
+.stats {
+    position:absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 32px;
+    padding: 18px;
+    margin:10px;
+    border-radius: 16px;
+}
+.computer-side{
+    width:50%;
+    background-color: skyblue;
+    border-radius: 18px;
+    height:400px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#select-game{
+    background-color:#7B25DC;
+}
+.computer-img{
+    justify-content: center;
+}
+.user-side{
+    width:50%;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    height:400px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#emoji,#cmp-emoji{
+    width:200px;
+    height:200px;
+}
+
+button{
+    background-color:#009C36;
+    color:whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align:center;
+    display:inline-block;
+    margin: 20px 10px;
+    text-decoration:none;
+}
+#finalized{
+    background-color: green;
+}
+.selections{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#bottom-text{
+    font-size:48px;
+}
+
+.main-menu{
+    width:100%;
+}

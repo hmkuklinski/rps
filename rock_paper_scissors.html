@@ -1,0 +1,69 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/rock_paper_scissors_js/rock_paper_scissors.css">
+  </head>
+  <body>
+    <div class="webpage-elements">
+        <div class="title-and-subtitle">
+            <div class="title">
+                <h1>Rock Paper Scissors</h1>
+            </div>
+            <div class="subtitle">
+                <h2>Enjoy a classic game of Rock Paper Scissors, or try the bonus version of Rock Paper Scissors Lizards Spock!</h2>
+            </div>
+        </div>
+        <div class="game-window">
+            <div class="stats">
+                <div id="score">Score: 0</div>
+            </div>
+            <div class="user-side">
+                <div class="user-img">
+                    <img id="emoji" src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f464.svg" alt="selection">
+                </div>
+                <div id="text">
+                    <p></p>
+                </div>
+                
+            </div>
+            <div class="computer-side">
+                <div class="computer-img">
+                    <img id="cmp-emoji" src="https://cdn.pixabay.com/photo/2021/04/07/15/36/laptop-6159414_1280.png" alt="computer selection">
+                </div>
+                <div id="computer-text">
+                    <p></p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="bottom">
+            <div id="bottom-text">
+                <p>Welcome! Please make your selection:</p>
+            </div>
+            <div class="main-menu">
+                <div class="selections">
+                    <button id="rock"style="display:none">Rock</button>
+                    <button id="paper"style="display:none">Paper</button>
+                    <button id="scissors"style="display:none">Scissors</button>
+                    <button id="lizard" style="display:none">Lizard</button>
+                    <button id="spock" style="display:none">Spock</button>
+                    <button id="finalized"style="display:none">Play</button>
+                    <button id="select-game">Select Game Mode</button>
+                    <button id="classic"style="display:none">Classic Mode</button>
+                    <button id="bonus"style="display:none">Bonus Mode</button>
+                    <button id="rules">Rules</button>
+                    <button id="button1"style="display:none"> Previous</button>
+                    <button id="button2"style="display:none"> Start Over</button>
+                    <button id="button3"style="display:none"> Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script  src="/rock_paper_scissors_js/rock_paper_scissors.js"></script>
+  </body>
+</html>
