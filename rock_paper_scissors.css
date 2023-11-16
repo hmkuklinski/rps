@@ -103,6 +103,7 @@ button{
     display:inline-block;
     margin: 20px 10px;
     text-decoration:none;
+    cursor:pointer;
 }
 #finalized{
     background-color: green;
