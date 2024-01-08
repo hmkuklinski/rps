@@ -1,6 +1,10 @@
 # Rock Paper Scissors
 The rock paper scissors game is made from HTML, CSS, and JavaScript.
+
+
 ![Project Preview](https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/community%2Fproject-showcase%2Fpost%2FOcxUdeH1ZBt1rsV9OxAK%2FScreenshot%202023-11-14%20170402.png?alt=media&token=1a569aa3-97b4-43eb-9d45-d8427798eec3)
+
+[Play Game](https://hannahkuklinski-rps.vercel.app/)
 
 ## The Inspiration for this Project
 One of the Codedex projects in the Legend of Python course was to create a Rock Paper Scissors text game, in which users type into the console. While I did enjoy making this project, I felt that it would be more interactive and accessible for other users to be able to play this game on a website. 
